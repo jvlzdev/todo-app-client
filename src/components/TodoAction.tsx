@@ -4,19 +4,22 @@ import { addTodoAction } from "../features/todo/todoService";
 import { getLoading, getPrompt } from "../features/todo/todoSlice";
 
 function TodoAction() {
-  const [todoName, setTodoName] = useState("");
+  const [todoName, setTodoName] = useState<string>("");
 
   const dispatch = useAppDispatch();
 
-  const handleOnChangeTodoName = (e) => setTodoName(e.target.value);
+  const handleOnChangeTodoName = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const targetValue = e.target.value;
+    setTodoName(targetValue);
+  };
 
-  const requestCallBack = (res) => {
+  const requestCallBack = (res: { message: string }) => {
     if (res) {
       dispatch(getLoading(true));
       dispatch(getPrompt(res.message));
       setTimeout(() => {
         dispatch(getLoading(false));
-      }, 10000000);
+      }, 3000);
     }
   };
 

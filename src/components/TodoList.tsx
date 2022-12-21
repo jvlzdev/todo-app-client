@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import {
   RiCloseCircleFill,
   RiEditCircleFill,
@@ -14,8 +14,8 @@ import {
 
 function TodoList() {
   const todoList = useAppSelector(getTodoList);
-  const [input, setInput] = useState("");
-  const [selectedItem, setSelectedItem] = useState("");
+  const [input, setInput] = useState<string>("");
+  const [selectedItem, setSelectedItem] = useState<any>("");
 
   const dispatch = useAppDispatch();
 
@@ -23,7 +23,7 @@ function TodoList() {
     setSelectedItem(data);
   };
 
-  const requestCallBack = (res) => {
+  const requestCallBack = (res: { message: string }) => {
     if (res) {
       dispatch(getLoading(true));
       dispatch(getPrompt(res.message));
@@ -33,7 +33,7 @@ function TodoList() {
     }
   };
 
-  const handleOnClickUpdate = (_id: any) => {
+  const handleOnClickUpdate = (_id: string) => {
     dispatch(
       updateTodoAction(
         _id,
@@ -48,12 +48,12 @@ function TodoList() {
     setSelectedItem("");
   };
 
-  const handleonClickDelete = (_id: any) => {
+  const handleonClickDelete = (_id: string) => {
     dispatch(deleteTodoAction(_id, requestCallBack));
   };
 
-  const handleOnChangeInput = (event) => {
-    setInput(event.target.value);
+  const handleOnChangeInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setInput(e.target.value);
   };
 
   return (

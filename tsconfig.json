@@ -14,12 +14,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-<<<<<<< HEAD
     "jsx": "react-jsx",
     "noImplicitAny": false
-=======
-    "jsx": "react-jsx"
->>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]

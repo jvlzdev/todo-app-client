@@ -4,10 +4,6 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: "class",
   theme: {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> a0ee311 ([Second] Navbar, darkmode, fullpage scroll, and responsiveness)
     screens: {
       xs: { min: "0px", max: "639px" },
       sm: { min: "640px", max: "767px" },
@@ -25,20 +21,9 @@ module.exports = {
       "2xl": { min: "1536px" },
       // => @media (min-width: 1536px) { ... }
     },
-<<<<<<< HEAD
     extend: {
       fontFamily: {
         poppins: ["poppins", "sans-serif"],
-=======
-    extend: {
-      fontFamily: {
-        inter: ["inter", "serif"],
->>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)
-=======
-    extend: {
-      fontFamily: {
-        poppins: ["poppins", "sans-serif"],
->>>>>>> a0ee311 ([Second] Navbar, darkmode, fullpage scroll, and responsiveness)
       },
       colors: {
         primary: "#ff4800",

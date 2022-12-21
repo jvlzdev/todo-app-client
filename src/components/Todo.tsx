@@ -22,7 +22,7 @@ function Todo() {
 }
 
 const styles = {
-  container: "bg-white w-4/12 m shadow-md h-96",
+  container: "bg-white w-4/12 shadow-md h-96 xs:w-full sm:w-full md:w-7/12 lg:w-5/12",
   todoContainer: "h-full",
 };
 
