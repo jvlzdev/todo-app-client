@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect } from "react";
 import { useAppDispatch } from "./app/hooks";
 import Footer from "./components/Footer";
@@ -44,4 +45,28 @@ const styles = {
     "font-poppins min-h-screen w-full bg-slate-50 flex flex-col justify-center items-center gap-y-5",
 };
 
+=======
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Intro from "./components/Intro";
+import NavHeader from "./components/NavHeader";
+import Portfolio from "./components/Portfolio";
+import Timeline from "./components/Timeline";
+
+const App = () => {
+  return (
+    <div className="font-inter">
+      <NavHeader />
+      <Intro />
+      <Intro />
+      <Intro />
+      {/* <Portfolio />
+      <Timeline />
+      <Contact />
+      <Footer /> */}
+    </div>
+  );
+};
+
+>>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)
 export default App;

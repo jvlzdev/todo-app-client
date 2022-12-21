@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import Footer from "./Footer";
 import {
@@ -47,3 +48,14 @@ function Contact() {
 }
 
 export default Contact;
+=======
+import React from 'react'
+
+function Contact() {
+  return (
+    <div>Contact</div>
+  )
+}
+
+export default Contact
+>>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)

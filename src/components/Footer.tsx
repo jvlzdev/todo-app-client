@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 
 function Footer() {
@@ -13,3 +14,14 @@ const styles = {
 };
 
 export default Footer;
+=======
+import React from 'react'
+
+function Footer() {
+  return (
+    <div>Footer</div>
+  )
+}
+
+export default Footer
+>>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)

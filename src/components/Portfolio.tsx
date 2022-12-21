@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import imgFirstURL from "../assets/images/c-manulife.png";
 import imgSecondURL from "../assets/images/c-rakuten.png";
@@ -204,3 +205,14 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+=======
+import React from 'react'
+
+function Portfolio() {
+  return (
+    <div>Portfolio</div>
+  )
+}
+
+export default Portfolio
+>>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)

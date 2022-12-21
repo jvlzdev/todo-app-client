@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "todo-list-app",
+=======
+  "name": "react-ts-tailwind",
+>>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +13,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@reduxjs/toolkit": "^1.9.1",
     "axios": "^1.2.2",
     "mongodb": "4.13",
@@ -21,6 +26,10 @@
 =======
     "react-typed": "^1.2.0"
 >>>>>>> 5c32090 ([enhancement-v3] Added skills section, responsiveness and pdf viewer)
+=======
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+>>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)
   },
   "devDependencies": {
     "@types/react": "^18.0.24",
@@ -31,6 +40,7 @@
     "tailwindcss": "^3.2.4",
     "typescript": "^4.6.4",
     "vite": "^3.2.3"
+<<<<<<< HEAD
   },
   "main": "index.js",
   "repository": {},
@@ -39,4 +49,7 @@
   "license": "ISC",
   "homepage": "",
   "description": ""
+=======
+  }
+>>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)
 }

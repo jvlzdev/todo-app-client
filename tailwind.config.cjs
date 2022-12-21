@@ -4,6 +4,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   darkMode: "class",
   theme: {
+<<<<<<< HEAD
     screens: {
       xs: { min: "0px", max: "639px" },
       sm: { min: "640px", max: "767px" },
@@ -24,6 +25,11 @@ module.exports = {
     extend: {
       fontFamily: {
         poppins: ["poppins", "sans-serif"],
+=======
+    extend: {
+      fontFamily: {
+        inter: ["inter", "serif"],
+>>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)
       },
       colors: {
         primary: "#ff4800",

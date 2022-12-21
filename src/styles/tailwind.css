@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --primary: #334155;
     --secondary: rgb(76, 79, 85);
@@ -39,4 +40,8 @@
 }
 
 >>>>>>> 5c32090 ([enhancement-v3] Added skills section, responsiveness and pdf viewer)
+=======
+@tailwind base;
+@tailwind components;
+>>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)
 @tailwind utilities;
