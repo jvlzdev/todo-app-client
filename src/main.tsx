@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
@@ -24,3 +25,11 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   </React.StrictMode>
 )
 >>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)
+=======
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./styles/tailwind.css";
+
+ReactDOM.render(<App />, document.getElementById("root"));
+>>>>>>> a0ee311 ([Second] Navbar, darkmode, fullpage scroll, and responsiveness)

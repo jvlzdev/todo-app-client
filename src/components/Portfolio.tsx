@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import imgFirstURL from "../assets/images/c-manulife.png";
 import imgSecondURL from "../assets/images/c-rakuten.png";
@@ -242,12 +243,26 @@ const Portfolio = () => {
 export default Portfolio;
 =======
 import React from 'react'
+=======
+import React from "react";
+>>>>>>> a0ee311 ([Second] Navbar, darkmode, fullpage scroll, and responsiveness)
 
 function Portfolio() {
   return (
-    <div>Portfolio</div>
-  )
+    <div
+      id="portfolio"
+      className="snap-start flex flex-col items-center justify-center text-center h-screen min-h-screen"
+    >
+      <h1 className="text-4xl xs:text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-900 dark:text-slate-50 mb-5">
+        PORTFOLIO
+      </h1>
+    </div>
+  );
 }
 
+<<<<<<< HEAD
 export default Portfolio
 >>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)
+=======
+export default Portfolio;
+>>>>>>> a0ee311 ([Second] Navbar, darkmode, fullpage scroll, and responsiveness)

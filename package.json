@@ -8,11 +8,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 3000",
+    "dev": "vite --port 5000",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
 <<<<<<< HEAD
     "@reduxjs/toolkit": "^1.9.1",
     "axios": "^1.2.2",
@@ -30,6 +31,11 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
 >>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)
+=======
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-typed": "^1.2.0"
+>>>>>>> a0ee311 ([Second] Navbar, darkmode, fullpage scroll, and responsiveness)
   },
   "devDependencies": {
     "@types/react": "^18.0.24",

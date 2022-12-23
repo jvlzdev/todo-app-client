@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import Footer from "./Footer";
 import {
@@ -50,12 +51,30 @@ function Contact() {
 export default Contact;
 =======
 import React from 'react'
+=======
+import React from "react";
+import Footer from "./Footer";
+>>>>>>> a0ee311 ([Second] Navbar, darkmode, fullpage scroll, and responsiveness)
 
 function Contact() {
   return (
-    <div>Contact</div>
-  )
+    <div
+      id="contact"
+      className="snap-start flex flex-col items-center justify-between text-center h-screen min-h-screen"
+    >
+      <div className="w-full max-h-screen h-screen justify-center flex items-center">
+        <h1 className="text-4xl xs:text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-900 dark:text-slate-50 mb-5">
+          CONTACT
+        </h1>
+      </div>
+      <Footer />
+    </div>
+  );
 }
 
+<<<<<<< HEAD
 export default Contact
 >>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)
+=======
+export default Contact;
+>>>>>>> a0ee311 ([Second] Navbar, darkmode, fullpage scroll, and responsiveness)

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 :root {
     --primary: #334155;
     --secondary: rgb(76, 79, 85);
@@ -41,7 +42,43 @@
 
 >>>>>>> 5c32090 ([enhancement-v3] Added skills section, responsiveness and pdf viewer)
 =======
+=======
+:root {
+    --primary: rebeccapurple;
+    --secondary: rgb(76, 79, 85);
+}
+
+>>>>>>> a0ee311 ([Second] Navbar, darkmode, fullpage scroll, and responsiveness)
 @tailwind base;
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+    /* border-radius: 5px; */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    /* border-radius: 14px; */
+}
+
 @tailwind components;
+<<<<<<< HEAD
 >>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)
+=======
+
+.snap-y-mandatory {
+    scroll-snap-type: y mandatory;
+}
+
+>>>>>>> a0ee311 ([Second] Navbar, darkmode, fullpage scroll, and responsiveness)
 @tailwind utilities;
