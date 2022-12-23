@@ -1,3 +1,34 @@
+:root {
+    --primary: rebeccapurple;
+    --secondary: rgb(76, 79, 85);
+}
+
 @tailwind base;
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+    /* border-radius: 5px; */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    /* border-radius: 14px; */
+}
+
 @tailwind components;
+
+.snap-y-mandatory {
+    scroll-snap-type: y mandatory;
+}
+
 @tailwind utilities;
