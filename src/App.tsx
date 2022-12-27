@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import NavHeader from "./components/NavHeader";
 import Portfolio from "./components/Portfolio";
+import Services from "./components/Services";
 import Skills from "./components/Skills";
 import Timeline from "./components/Timeline";
 import Work from "./components/Work";
@@ -76,9 +77,10 @@ const App = () => {
         {theme === "dark" ? sun : moon}
       </button>
       <div className="font-poppins basis-1/2 snap-y-mandatory max-h-screen overflow-y-scroll w-full scroll-smooth bg-slate-50 dark:bg-stone-900 transition duration-150">
-        <NavHeader />
+        {/* <NavHeader /> */}
         <HeroSection />
         <About />
+        <Services />
         <Work />
         <Skills />
         <Portfolio />

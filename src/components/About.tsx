@@ -13,22 +13,16 @@ function About() {
 
       <div className="flex flex-row w-3/6 text-left xs:w-5/6 xs:flex-col-reverse">
         <div className="flex-1 mr-5">
-          <div className="flex flex-col text-3xl font-black text-neutral-800">
-            <p>System Engineer;</p>
+          <div className="flex flex-col text-3xl font-black text-neutral-800 xs:mt-5 dark:text-slate-50">
+            <p>Software Engineer;</p>
             <p>Web Developer;</p>
-            <p>Code Lover;</p>
           </div>
           <div className="flex flex-row">
-            <div className="w-1.5 h-6 bg-[#663399] my-4 mr-2" />
-            <div className="w-1.5 h-6 bg-[#663399] my-4 mr-2" />
-            <div className="w-1.5 h-6 bg-[#663399] my-4 mr-2" />
-            <div className="w-1.5 h-6 bg-[#663399] my-4 mr-2" />
-            <div className="w-1.5 h-6 bg-[#663399] my-4 mr-2" />
+            <div className="w-10 h-1 bg-[#663399] my-5 mr-2" />
           </div>
-          <div className="text-lg">
-            I am a System Developer in XAM Consulting. I also trained in Japan
-            as a System Engineer for 2 years. I have a serious passion for
-            coding especially in web development.
+          <div className="text-lg dark:text-slate-50">
+            I am working as Senior Developer in <a href="https://atos.net/en" className="text-[#663399] font-bold hover:underline">Atos Information Technology, Inc</a>. I have
+            almost 5 years of experience especially in Web Development. I'm passionate about coding because this is my daily errands in life.
           </div>
         </div>
         <div className="flex-1">

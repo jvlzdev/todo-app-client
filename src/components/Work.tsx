@@ -11,7 +11,7 @@ function Work() {
       </h1>
 
       <div className="flex flex-row w-3/6 text-left xs:w-5/6 xs:flex-col">
-        <div className="flex-1">
+        <div className="flex-1 mr-5">
           <ol className="relative border-l border-gray-300 dark:border-gray-700">
             <li className="mb-2 ml-4">
               <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
@@ -103,14 +103,14 @@ function Work() {
             </li>
             <li className="ml-4">
               <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              <time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
                 June 2018 - April 2019
               </time>
               <h3 className="text-base font-semibold text-gray-900 dark:text-white">
                 Personiv Philippines
               </h3>
               <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
-                Web Designer/Graphic Designer - Fulltime
+                Web Designer - Fulltime
               </p>
             </li>
           </ol>

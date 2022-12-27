@@ -11,85 +11,132 @@ function Skills() {
       </h1>
 
       <div className="flex flex-row w-3/6 text-left xs:w-5/6 xs:flex-col">
-        <div className="flex-1">
-          <ol className="relative border-l border-gray-300 dark:border-gray-700">
-            <li className="mb-2 ml-4">
-              <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
-                October 2022 - Present
-              </time>
-              <h3 className="text-base font-semibold text-gray-900 dark:text-white">
-                Atos Information Technology, Inc.
-              </h3>
-              <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
-                Senior Developer
-              </p>
+        <div className="mb-4 border-b border-gray-200 dark:border-gray-700 dark:text-slate-50">
+          <ul
+            className="flex flex-wrap -mb-px text-sm font-medium text-center"
+            id="myTab"
+            data-tabs-toggle="#myTabContent"
+            role="tablist"
+          >
+            <li className="mr-2" role="presentation">
+              <button
+                className="inline-block p-4 rounded-t-lg border-b-2"
+                id="profile-tab"
+                data-tabs-target="#profile"
+                type="button"
+                role="tab"
+                aria-controls="profile"
+                aria-selected="false"
+              >
+                FRONTEND
+              </button>
             </li>
-            <li className="mb-2 ml-4">
-              <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
-                July 2020 - October 2022
-              </time>
-              <h3 className="text-base font-semibold text-gray-900 dark:text-white">
-                Accenture Inc.
-              </h3>
-              <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
-                Senior Application Developer
-              </p>
+            <li className="mr-2" role="presentation">
+              <button
+                className="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                id="dashboard-tab"
+                data-tabs-target="#dashboard"
+                type="button"
+                role="tab"
+                aria-controls="dashboard"
+                aria-selected="false"
+              >
+                BACKEND
+              </button>
             </li>
-            <li className="ml-4">
-              <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
-                May 2020 - July 2020
-              </time>
-              <h3 className="text-base font-semibold text-gray-900 dark:text-white">
-                Factor Research Limited
-              </h3>
-              <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
-                Web Developer
-              </p>
+            <li className="mr-2" role="presentation">
+              <button
+                className="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                id="settings-tab"
+                data-tabs-target="#settings"
+                type="button"
+                role="tab"
+                aria-controls="settings"
+                aria-selected="false"
+              >
+                TESTING
+              </button>
             </li>
-          </ol>
+            <li role="presentation">
+              <button
+                className="inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
+                id="contacts-tab"
+                data-tabs-target="#contacts"
+                type="button"
+                role="tab"
+                aria-controls="contacts"
+                aria-selected="false"
+              >
+                TOOLS
+              </button>
+            </li>
+          </ul>
         </div>
-        <div className="flex-1">
-          <ol className="relative border-l border-gray-300 dark:border-gray-700">
-            <li className="mb-2 ml-4">
-              <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
-                May 2020 - July 2020
-              </time>
-              <h3 className="text-base font-semibold text-gray-900 dark:text-white">
-                Achieve Without Borders
-              </h3>
-              <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
-                Javascript Developer
-              </p>
-            </li>
-            <li className="mb-2 ml-4">
-              <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
-                September 2019 - March 2020
-              </time>
-              <h3 className="text-base font-semibold text-gray-900 dark:text-white">
-                UnionBank of the Philippines
-              </h3>
-              <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
-                Web Developer
-              </p>
-            </li>
-            <li className="ml-4">
-              <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                June 2018 - April 2019
-              </time>
-              <h3 className="text-base font-semibold text-gray-900 dark:text-white">
-                Personiv Philippines
-              </h3>
-              <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
-                Web Designer/Graphic Designer
-              </p>
-            </li>
-          </ol>
+        <div id="myTabContent">
+          <div
+            className="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800"
+            id="profile"
+            role="tabpanel"
+            aria-labelledby="profile-tab"
+          >
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              This is some placeholder content the{" "}
+              <strong className="font-medium text-gray-800 dark:text-white">
+                Profile tab's associated content
+              </strong>
+              . Clicking another tab will toggle the visibility of this one for
+              the next. The tab JavaScript swaps classNamees to control the
+              content visibility and styling.
+            </p>
+          </div>
+          <div
+            className="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800"
+            id="dashboard"
+            role="tabpanel"
+            aria-labelledby="dashboard-tab"
+          >
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              This is some placeholder content the{" "}
+              <strong className="font-medium text-gray-800 dark:text-white">
+                Dashboard tab's associated content
+              </strong>
+              . Clicking another tab will toggle the visibility of this one for
+              the next. The tab JavaScript swaps classes to control the content
+              visibility and styling.
+            </p>
+          </div>
+          <div
+            className="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800"
+            id="settings"
+            role="tabpanel"
+            aria-labelledby="settings-tab"
+          >
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              This is some placeholder content the{" "}
+              <strong className="font-medium text-gray-800 dark:text-white">
+                Settings tab's associated content
+              </strong>
+              . Clicking another tab will toggle the visibility of this one for
+              the next. The tab JavaScript swaps classes to control the content
+              visibility and styling.
+            </p>
+          </div>
+          <div
+            className="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800"
+            id="contacts"
+            role="tabpanel"
+            aria-labelledby="contacts-tab"
+          >
+            <p className="text-sm text-gray-500 dark:text-gray-400">
+              This is some placeholder content the{" "}
+              <strong className="font-medium text-gray-800 dark:text-white">
+                Contacts tab's associated content
+              </strong>
+              . Clicking another tab will toggle the visibility of this one for
+              the next. The tab JavaScript swaps classNamees to control the
+              content visibility and styling.
+            </p>
+          </div>
         </div>
       </div>
     </div>
