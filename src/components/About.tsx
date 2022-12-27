@@ -73,13 +73,13 @@ export default About;
       className="snap-start flex flex-col items-center justify-center text-center h-screen min-h-screen xs:h-full"
 >>>>>>> 34a0cfe ([Third] Test)
     >
-      <h1 className="text-4xl xs:text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-900 dark:text-slate-50 mb-10 xs:my-4">
+      <h1 className="text-4xl xs:text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-800 dark:text-slate-50 mb-10 xs:my-4">
         ABOUT ME
       </h1>
 
       <div className="flex flex-row w-3/6 text-left xs:w-5/6 xs:flex-col-reverse">
         <div className="flex-1 mr-5">
-          <div className="flex flex-col text-3xl font-black">
+          <div className="flex flex-col text-3xl font-black text-neutral-800">
             <p>System Engineer;</p>
             <p>Web Developer;</p>
             <p>Code Lover;</p>

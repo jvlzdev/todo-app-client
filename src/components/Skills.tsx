@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React, { useState } from "react";
 import {
   DiCss3,
@@ -343,19 +344,109 @@ const SkillContainer = ({ data, tab }: any) => {
 export default Skills;
 =======
 import React from 'react'
+=======
+import React from "react";
+>>>>>>> 5160492 ([Fourth] Added work experience section)
 
 function Skills() {
   return (
     <div
       id="skills"
-      className="snap-start flex flex-col items-center justify-center text-center h-screen min-h-screen"
+      className="snap-start flex flex-col items-center justify-center text-center h-screen min-h-screen xs:h-full"
     >
-      <h1 className="text-4xl xs:text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-900 dark:text-slate-50 mb-5">
+      <h1 className="text-4xl xs:text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-800 dark:text-slate-50 mb-10 xs:my-4">
         SKILLS
       </h1>
+
+      <div className="flex flex-row w-3/6 text-left xs:w-5/6 xs:flex-col">
+        <div className="flex-1">
+          <ol className="relative border-l border-gray-300 dark:border-gray-700">
+            <li className="mb-2 ml-4">
+              <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
+                October 2022 - Present
+              </time>
+              <h3 className="text-base font-semibold text-gray-900 dark:text-white">
+                Atos Information Technology, Inc.
+              </h3>
+              <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
+                Senior Developer
+              </p>
+            </li>
+            <li className="mb-2 ml-4">
+              <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
+                July 2020 - October 2022
+              </time>
+              <h3 className="text-base font-semibold text-gray-900 dark:text-white">
+                Accenture Inc.
+              </h3>
+              <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
+                Senior Application Developer
+              </p>
+            </li>
+            <li className="ml-4">
+              <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
+                May 2020 - July 2020
+              </time>
+              <h3 className="text-base font-semibold text-gray-900 dark:text-white">
+                Factor Research Limited
+              </h3>
+              <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
+                Web Developer
+              </p>
+            </li>
+          </ol>
+        </div>
+        <div className="flex-1">
+          <ol className="relative border-l border-gray-300 dark:border-gray-700">
+            <li className="mb-2 ml-4">
+              <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
+                May 2020 - July 2020
+              </time>
+              <h3 className="text-base font-semibold text-gray-900 dark:text-white">
+                Achieve Without Borders
+              </h3>
+              <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
+                Javascript Developer
+              </p>
+            </li>
+            <li className="mb-2 ml-4">
+              <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
+                September 2019 - March 2020
+              </time>
+              <h3 className="text-base font-semibold text-gray-900 dark:text-white">
+                UnionBank of the Philippines
+              </h3>
+              <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
+                Web Developer
+              </p>
+            </li>
+            <li className="ml-4">
+              <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+                June 2018 - April 2019
+              </time>
+              <h3 className="text-base font-semibold text-gray-900 dark:text-white">
+                Personiv Philippines
+              </h3>
+              <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
+                Web Designer/Graphic Designer
+              </p>
+            </li>
+          </ol>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
+<<<<<<< HEAD
 export default Skills
 >>>>>>> a0ee311 ([Second] Navbar, darkmode, fullpage scroll, and responsiveness)
+=======
+export default Skills;
+>>>>>>> 5160492 ([Fourth] Added work experience section)

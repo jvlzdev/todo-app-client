@@ -58,6 +58,7 @@ import NavHeader from "./components/NavHeader";
 import Portfolio from "./components/Portfolio";
 import Skills from "./components/Skills";
 import Timeline from "./components/Timeline";
+import Work from "./components/Work";
 
 const App = () => {
   const [theme, setTheme] = useState<null | string>(null);
@@ -129,6 +130,7 @@ const App = () => {
         <NavHeader />
         <HeroSection />
         <About />
+        <Work />
         <Skills />
         <Portfolio />
         <Contact />

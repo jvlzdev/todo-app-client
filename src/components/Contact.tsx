@@ -22,7 +22,11 @@ function Contact() {
           CONTACT ME
 =======
       <div className="w-full max-h-screen h-screen justify-center flex items-center">
+<<<<<<< HEAD
         <h1 className="text-4xl xs:text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-800 dark:text-slate-50 mb-5 xs:mt-20">
+=======
+        <h1 className="text-4xl xs:text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-800 dark:text-slate-50 mb-5">
+>>>>>>> 5160492 ([Fourth] Added work experience section)
           CONTACT
 >>>>>>> 5c32090 ([enhancement-v3] Added skills section, responsiveness and pdf viewer)
         </h1>
