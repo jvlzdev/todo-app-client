@@ -6,6 +6,7 @@ function Intro() {
     <div
       id="home"
 <<<<<<< HEAD
+<<<<<<< HEAD
       className="snap-start flex flex-col items-center justify-center text-center h-screen min-h-screen xs:h-full"
     >
       <h1 className="text-8xl xs:text-6xl sm:text-7xl md:text-8xl font-bold text-neutral-800 dark:text-slate-50 mb-5">
@@ -14,6 +15,9 @@ function Intro() {
       <h1 className="text-6xl xs:text-4xl sm:text-5xl md:text-6xl font-bold text-neutral-800 dark:text-slate-50 mb-5">
 =======
       className="snap-start flex flex-col items-center justify-center text-center h-screen min-h-screen"
+=======
+      className="snap-start flex flex-col items-center justify-center text-center h-screen min-h-screen xs:h-full"
+>>>>>>> 34a0cfe ([Third] Test)
     >
       <h1 className="text-8xl xs:text-6xl sm:text-7xl md:text-8xl font-bold text-neutral-900 dark:text-slate-50 mb-5">
         Hello,
