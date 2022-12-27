@@ -1,13 +1,13 @@
 import React from "react";
 
-function Skills() {
+function Work() {
   return (
     <div
-      id="skills"
+      id="work"
       className="snap-start flex flex-col items-center justify-center text-center h-screen min-h-screen xs:h-full"
     >
       <h1 className="text-4xl xs:text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-800 dark:text-slate-50 mb-10 xs:my-4">
-        SKILLS
+        WORK EXPERIENCE
       </h1>
 
       <div className="flex flex-row w-3/6 text-left xs:w-5/6 xs:flex-col">
@@ -22,7 +22,19 @@ function Skills() {
                 Atos Information Technology, Inc.
               </h3>
               <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
-                Senior Developer
+                Senior Developer - Fulltime
+              </p>
+            </li>
+            <li className="mb-2 ml-4">
+              <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
+                September 2022 - Present
+              </time>
+              <h3 className="text-base font-semibold text-gray-900 dark:text-white">
+                Pixelsoft Tech
+              </h3>
+              <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
+                Senior React Developer - Freelance
               </p>
             </li>
             <li className="mb-2 ml-4">
@@ -34,19 +46,19 @@ function Skills() {
                 Accenture Inc.
               </h3>
               <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
-                Senior Application Developer
+                Senior Application Developer - Fulltime
               </p>
             </li>
             <li className="ml-4">
               <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               <time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
-                May 2020 - July 2020
+                June 2021 - August 2021
               </time>
               <h3 className="text-base font-semibold text-gray-900 dark:text-white">
-                Factor Research Limited
+                SBHE PTE LTD
               </h3>
               <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
-                Web Developer
+                Web Developer - Freelance
               </p>
             </li>
           </ol>
@@ -56,13 +68,25 @@ function Skills() {
             <li className="mb-2 ml-4">
               <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               <time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
+                May 2021 - July 2021
+              </time>
+              <h3 className="text-base font-semibold text-gray-900 dark:text-white">
+                Factor Research Limited
+              </h3>
+              <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
+                Web Developer - Freelance
+              </p>
+            </li>
+            <li className="mb-2 ml-4">
+              <div className="absolute w-3 h-3 bg-[#663399] rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time className="mb-1 text-xs font-normal leading-none text-gray-400 dark:text-gray-500">
                 May 2020 - July 2020
               </time>
               <h3 className="text-base font-semibold text-gray-900 dark:text-white">
                 Achieve Without Borders
               </h3>
               <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
-                Javascript Developer
+                Javascript Developer - Freelance
               </p>
             </li>
             <li className="mb-2 ml-4">
@@ -74,7 +98,7 @@ function Skills() {
                 UnionBank of the Philippines
               </h3>
               <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
-                Web Developer
+                Web Developer - Fulltime
               </p>
             </li>
             <li className="ml-4">
@@ -86,7 +110,7 @@ function Skills() {
                 Personiv Philippines
               </h3>
               <p className="mb-2 text-sm font-normal text-gray-500 dark:text-gray-400">
-                Web Designer/Graphic Designer
+                Web Designer/Graphic Designer - Fulltime
               </p>
             </li>
           </ol>
@@ -96,4 +120,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default Work;
