@@ -5,7 +5,7 @@ function Intro() {
   return (
     <div
       id="home"
-      className="snap-start flex flex-col items-center justify-center text-center h-screen min-h-screen"
+      className="snap-start flex flex-col items-center justify-center text-center h-screen min-h-screen xs:h-full"
     >
       <h1 className="text-8xl xs:text-6xl sm:text-7xl md:text-8xl font-bold text-neutral-900 dark:text-slate-50 mb-5">
         Hello,
