@@ -31,4 +31,12 @@
     scroll-snap-type: y mandatory;
 }
 
+.active-tab {
+    border-bottom-color: transparent;
+}
+
+.not-active-tab {
+    border-color: transparent;
+}
+
 @tailwind utilities;

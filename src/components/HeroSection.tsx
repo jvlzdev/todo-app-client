@@ -19,8 +19,8 @@ function Intro() {
       <h1 className="text-lg md:text-lg sm:text-lg text-neutral-800 dark:text-slate-50">
         I developed
         <Typed
-          className="text-[#663399] font-bold dark:text-[#663399]"
-          strings={[" systems.", " websites."]}
+          className="text-[#663399] font-bold ml-1.5 dark:text-[#663399]"
+          strings={["systems.", "websites."]}
           typeSpeed={120}
           backSpeed={110}
           loop

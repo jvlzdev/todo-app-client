@@ -76,7 +76,7 @@ const App = () => {
       >
         {theme === "dark" ? sun : moon}
       </button>
-      <div className="font-poppins basis-1/2 snap-y-mandatory max-h-screen overflow-y-scroll w-full scroll-smooth bg-slate-50 dark:bg-stone-900 transition duration-150">
+      <div className="font-poppins basis-1/2 snap-y-mandatory xs:snap-none max-h-screen overflow-y-scroll w-full scroll-smooth bg-slate-50 dark:bg-stone-900 transition duration-150">
         {/* <NavHeader /> */}
         <HeroSection />
         <About />
