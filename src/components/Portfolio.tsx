@@ -137,6 +137,7 @@ const portfolioData = [
 
 const Portfolio = () => {
   return (
+<<<<<<< HEAD
     <>
       {portfolioData.map((data) => (
         <div
@@ -189,6 +190,16 @@ const Portfolio = () => {
         </div>
       ))}
     </>
+=======
+    <div
+      id="portfolio"
+      className="snap-start flex flex-col items-center justify-center text-center h-screen min-h-screen"
+    >
+      <h1 className="text-4xl xs:text-2xl sm:text-3xl md:text-4xl font-bold text-neutral-800 dark:text-slate-50 mb-5 xs:mt-20">
+        PORTFOLIO
+      </h1>
+    </div>
+>>>>>>> 5c32090 ([enhancement-v3] Added skills section, responsiveness and pdf viewer)
   );
 };
 

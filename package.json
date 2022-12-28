@@ -15,8 +15,12 @@
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-icons": "^4.7.1",
+<<<<<<< HEAD
     "react-redux": "^8.0.5",
     "redux-logger": "^3.0.6"
+=======
+    "react-typed": "^1.2.0"
+>>>>>>> 5c32090 ([enhancement-v3] Added skills section, responsiveness and pdf viewer)
   },
   "devDependencies": {
     "@types/react": "^18.0.24",
