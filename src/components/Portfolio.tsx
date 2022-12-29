@@ -10,11 +10,15 @@ import imgSixthURL from "../assets/images/c-intellicare.png";
 import imgSeventhURL from "../assets/images/c-unionbank.png";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import docPDF from "../assets/documents/julius-pineda.pdf";
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
 =======
 >>>>>>> 9ae2edc (fixed target urls)
+=======
+import docPDF from "../assets/documents/julius-pineda.pdf";
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
 import {
   MdTabletMac,
   MdPhoneIphone,
@@ -36,12 +40,15 @@ const portfolioData = [
     url: imgFirstURL,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     href: "https://www.manulife.com.ph",
 =======
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
 =======
     href: "https://www.manulife.com.ph",
 >>>>>>> 9ae2edc (fixed target urls)
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
   },
   {
     id: "rakuten",
@@ -56,12 +63,15 @@ const portfolioData = [
     url: imgSecondURL,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     href: "https://travel.rakuten.com",
 =======
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
 =======
     href: "https://travel.rakuten.com",
 >>>>>>> 9ae2edc (fixed target urls)
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
   },
   {
     id: "watersport",
@@ -76,12 +86,15 @@ const portfolioData = [
     url: imgThirdURL,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     href: "https://w-sports.click",
 =======
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
 =======
     href: "https://w-sports.click",
 >>>>>>> 9ae2edc (fixed target urls)
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
   },
   {
     id: "factor-research",
@@ -96,12 +109,15 @@ const portfolioData = [
     url: imgFourthURL,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     href: "https://finominal.com",
 =======
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
 =======
     href: "https://finominal.com",
 >>>>>>> 9ae2edc (fixed target urls)
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
   },
   {
     id: "sbhe",
@@ -117,12 +133,15 @@ const portfolioData = [
     url: imgFifthURL,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     href: "https://sbhe-ume.com.sg",
 =======
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
 =======
     href: "https://sbhe-ume.com.sg",
 >>>>>>> 9ae2edc (fixed target urls)
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
   },
   {
     id: "intellicare",
@@ -138,12 +157,15 @@ const portfolioData = [
     url: imgSixthURL,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     href: "https://www.intellicare.net.ph",
 =======
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
 =======
     href: "https://www.intellicare.net.ph",
 >>>>>>> 9ae2edc (fixed target urls)
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
   },
   {
     id: "unionbank",
@@ -159,18 +181,24 @@ const portfolioData = [
     url: imgSeventhURL,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     href: "https://www.unionbankph.com",
 =======
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
 =======
     href: "https://www.unionbankph.com",
 >>>>>>> 9ae2edc (fixed target urls)
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
   },
 ];
 
 const Portfolio = () => {
   return (
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
     <>
       {portfolioData.map((data) => (
         <div
@@ -206,6 +234,7 @@ const Portfolio = () => {
                     className="ml-2 text-sm font-bold leading-6"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     href={data.href}
 =======
                     href={docPDF}
@@ -213,6 +242,9 @@ const Portfolio = () => {
 =======
                     href={data.href}
 >>>>>>> 9ae2edc (fixed target urls)
+=======
+                    href={docPDF}
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
                     target="_blank"
                   >
                     VISIT WEBSITE
@@ -227,6 +259,7 @@ const Portfolio = () => {
         </div>
       ))}
     </>
+<<<<<<< HEAD
 =======
     <div
       id="portfolio"
@@ -257,8 +290,10 @@ function Portfolio() {
         PORTFOLIO
       </h1>
     </div>
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
   );
-}
+};
 
 <<<<<<< HEAD
 export default Portfolio
