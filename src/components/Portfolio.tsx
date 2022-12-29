@@ -6,6 +6,10 @@ import imgFourthURL from "../assets/images/c-factor-research.png";
 import imgFifthURL from "../assets/images/c-sbhe.png";
 import imgSixthURL from "../assets/images/c-intellicare.png";
 import imgSeventhURL from "../assets/images/c-unionbank.png";
+<<<<<<< HEAD
+=======
+import docPDF from "../assets/documents/julius-pineda.pdf";
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
 import {
   MdTabletMac,
   MdPhoneIphone,
@@ -25,7 +29,10 @@ const portfolioData = [
       </div>
     ),
     url: imgFirstURL,
+<<<<<<< HEAD
     href: "https://www.manulife.com.ph",
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
   },
   {
     id: "rakuten",
@@ -38,7 +45,10 @@ const portfolioData = [
       </div>
     ),
     url: imgSecondURL,
+<<<<<<< HEAD
     href: "https://travel.rakuten.com",
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
   },
   {
     id: "watersport",
@@ -51,7 +61,10 @@ const portfolioData = [
       </div>
     ),
     url: imgThirdURL,
+<<<<<<< HEAD
     href: "https://w-sports.click",
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
   },
   {
     id: "factor-research",
@@ -64,7 +77,10 @@ const portfolioData = [
       </div>
     ),
     url: imgFourthURL,
+<<<<<<< HEAD
     href: "https://finominal.com",
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
   },
   {
     id: "sbhe",
@@ -78,7 +94,10 @@ const portfolioData = [
       </div>
     ),
     url: imgFifthURL,
+<<<<<<< HEAD
     href: "https://sbhe-ume.com.sg",
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
   },
   {
     id: "intellicare",
@@ -92,7 +111,10 @@ const portfolioData = [
       </div>
     ),
     url: imgSixthURL,
+<<<<<<< HEAD
     href: "https://www.intellicare.net.ph",
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
   },
   {
     id: "unionbank",
@@ -106,7 +128,10 @@ const portfolioData = [
       </div>
     ),
     url: imgSeventhURL,
+<<<<<<< HEAD
     href: "https://www.unionbankph.com",
+=======
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
   },
 ];
 
@@ -145,7 +170,11 @@ const Portfolio = () => {
                   <FaExternalLinkAlt className="w-4 h-4" />
                   <a
                     className="ml-2 text-sm font-bold leading-6"
+<<<<<<< HEAD
                     href={data.href}
+=======
+                    href={docPDF}
+>>>>>>> 58344ff ([initial-finish] added portfolio and contact)
                     target="_blank"
                   >
                     VISIT WEBSITE
