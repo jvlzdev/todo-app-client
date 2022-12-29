@@ -19,7 +19,7 @@ function Services() {
           <h3 className="text-xl font-bold xs:text-sm">RESPONSIVE</h3>
           <span className="text-sm px-4 xs:text-xs">
             I can develop a system/website that can work on any device,
-            regarding the size.
+            regardless of the size.
           </span>
         </div>
         <div className="flex-1 mr-5 xs:pb-2">
