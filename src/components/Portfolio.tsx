@@ -6,7 +6,6 @@ import imgFourthURL from "../assets/images/c-factor-research.png";
 import imgFifthURL from "../assets/images/c-sbhe.png";
 import imgSixthURL from "../assets/images/c-intellicare.png";
 import imgSeventhURL from "../assets/images/c-unionbank.png";
-import docPDF from "../assets/documents/julius-pineda.pdf";
 import {
   MdTabletMac,
   MdPhoneIphone,
@@ -26,6 +25,7 @@ const portfolioData = [
       </div>
     ),
     url: imgFirstURL,
+    href: "https://www.manulife.com.ph",
   },
   {
     id: "rakuten",
@@ -38,6 +38,7 @@ const portfolioData = [
       </div>
     ),
     url: imgSecondURL,
+    href: "https://travel.rakuten.com",
   },
   {
     id: "watersport",
@@ -50,6 +51,7 @@ const portfolioData = [
       </div>
     ),
     url: imgThirdURL,
+    href: "https://w-sports.click",
   },
   {
     id: "factor-research",
@@ -62,6 +64,7 @@ const portfolioData = [
       </div>
     ),
     url: imgFourthURL,
+    href: "https://finominal.com",
   },
   {
     id: "sbhe",
@@ -75,6 +78,7 @@ const portfolioData = [
       </div>
     ),
     url: imgFifthURL,
+    href: "https://sbhe-ume.com.sg",
   },
   {
     id: "intellicare",
@@ -88,6 +92,7 @@ const portfolioData = [
       </div>
     ),
     url: imgSixthURL,
+    href: "https://www.intellicare.net.ph",
   },
   {
     id: "unionbank",
@@ -101,6 +106,7 @@ const portfolioData = [
       </div>
     ),
     url: imgSeventhURL,
+    href: "https://www.unionbankph.com",
   },
 ];
 
@@ -139,7 +145,7 @@ const Portfolio = () => {
                   <FaExternalLinkAlt className="w-4 h-4" />
                   <a
                     className="ml-2 text-sm font-bold leading-6"
-                    href={docPDF}
+                    href={data.href}
                     target="_blank"
                   >
                     VISIT WEBSITE
