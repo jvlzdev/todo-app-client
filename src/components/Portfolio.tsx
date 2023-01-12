@@ -8,9 +8,12 @@ import imgFifthURL from "../assets/images/c-sbhe.png";
 import imgSixthURL from "../assets/images/c-intellicare.png";
 import imgSeventhURL from "../assets/images/c-unionbank.png";
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import docPDF from "../assets/documents/julius-pineda.pdf";
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
+=======
+>>>>>>> 9ae2edc (fixed target urls)
 import {
   MdTabletMac,
   MdPhoneIphone,
@@ -31,9 +34,13 @@ const portfolioData = [
     ),
     url: imgFirstURL,
 <<<<<<< HEAD
+<<<<<<< HEAD
     href: "https://www.manulife.com.ph",
 =======
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
+=======
+    href: "https://www.manulife.com.ph",
+>>>>>>> 9ae2edc (fixed target urls)
   },
   {
     id: "rakuten",
@@ -47,9 +54,13 @@ const portfolioData = [
     ),
     url: imgSecondURL,
 <<<<<<< HEAD
+<<<<<<< HEAD
     href: "https://travel.rakuten.com",
 =======
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
+=======
+    href: "https://travel.rakuten.com",
+>>>>>>> 9ae2edc (fixed target urls)
   },
   {
     id: "watersport",
@@ -63,9 +74,13 @@ const portfolioData = [
     ),
     url: imgThirdURL,
 <<<<<<< HEAD
+<<<<<<< HEAD
     href: "https://w-sports.click",
 =======
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
+=======
+    href: "https://w-sports.click",
+>>>>>>> 9ae2edc (fixed target urls)
   },
   {
     id: "factor-research",
@@ -79,9 +94,13 @@ const portfolioData = [
     ),
     url: imgFourthURL,
 <<<<<<< HEAD
+<<<<<<< HEAD
     href: "https://finominal.com",
 =======
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
+=======
+    href: "https://finominal.com",
+>>>>>>> 9ae2edc (fixed target urls)
   },
   {
     id: "sbhe",
@@ -96,9 +115,13 @@ const portfolioData = [
     ),
     url: imgFifthURL,
 <<<<<<< HEAD
+<<<<<<< HEAD
     href: "https://sbhe-ume.com.sg",
 =======
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
+=======
+    href: "https://sbhe-ume.com.sg",
+>>>>>>> 9ae2edc (fixed target urls)
   },
   {
     id: "intellicare",
@@ -113,9 +136,13 @@ const portfolioData = [
     ),
     url: imgSixthURL,
 <<<<<<< HEAD
+<<<<<<< HEAD
     href: "https://www.intellicare.net.ph",
 =======
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
+=======
+    href: "https://www.intellicare.net.ph",
+>>>>>>> 9ae2edc (fixed target urls)
   },
   {
     id: "unionbank",
@@ -130,9 +157,13 @@ const portfolioData = [
     ),
     url: imgSeventhURL,
 <<<<<<< HEAD
+<<<<<<< HEAD
     href: "https://www.unionbankph.com",
 =======
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
+=======
+    href: "https://www.unionbankph.com",
+>>>>>>> 9ae2edc (fixed target urls)
   },
 ];
 
@@ -173,10 +204,14 @@ const Portfolio = () => {
                   <a
                     className="ml-2 text-sm font-bold leading-6"
 <<<<<<< HEAD
+<<<<<<< HEAD
                     href={data.href}
 =======
                     href={docPDF}
 >>>>>>> 58344ff ([initial-finish] added portfolio and contact)
+=======
+                    href={data.href}
+>>>>>>> 9ae2edc (fixed target urls)
                     target="_blank"
                   >
                     VISIT WEBSITE
