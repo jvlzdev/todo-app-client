@@ -1,26 +1,34 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "todo-list-app",
 =======
   "name": "react-ts-tailwind",
 >>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)
+=======
+  "name": "todo-list-app",
+>>>>>>> 5b35ec2 ([DONE] Todo App)
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 5000",
+    "dev": "vite --port 3000",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5b35ec2 ([DONE] Todo App)
     "@reduxjs/toolkit": "^1.9.1",
     "axios": "^1.2.2",
     "mongodb": "4.13",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-icons": "^4.7.1",
+<<<<<<< HEAD
 <<<<<<< HEAD
     "react-redux": "^8.0.5",
     "redux-logger": "^3.0.6"
@@ -36,6 +44,10 @@
     "react-dom": "^16.3.0",
     "react-typed": "^1.2.0"
 >>>>>>> a0ee311 ([Second] Navbar, darkmode, fullpage scroll, and responsiveness)
+=======
+    "react-redux": "^8.0.5",
+    "redux-logger": "^3.0.6"
+>>>>>>> 5b35ec2 ([DONE] Todo App)
   },
   "devDependencies": {
     "@types/react": "^18.0.24",
@@ -47,6 +59,9 @@
     "typescript": "^4.6.4",
     "vite": "^3.2.3"
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5b35ec2 ([DONE] Todo App)
   },
   "main": "index.js",
   "repository": {},
@@ -55,7 +70,10 @@
   "license": "ISC",
   "homepage": "",
   "description": ""
+<<<<<<< HEAD
 =======
   }
 >>>>>>> 348e8b5 ([Step-1] Initial Design and Setup)
+=======
+>>>>>>> 5b35ec2 ([DONE] Todo App)
 }

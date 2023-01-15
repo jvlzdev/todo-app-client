@@ -28,8 +28,19 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
 =======
 import React from "react";
 import ReactDOM from "react-dom";
+import { Provider } from "react-redux";
+import { store } from "./app/store";
 import App from "./App";
 import "./styles/tailwind.css";
 
+<<<<<<< HEAD
 ReactDOM.render(<App />, document.getElementById("root"));
 >>>>>>> a0ee311 ([Second] Navbar, darkmode, fullpage scroll, and responsiveness)
+=======
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);
+>>>>>>> 5b35ec2 ([DONE] Todo App)
